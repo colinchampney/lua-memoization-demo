@@ -1,0 +1,4 @@
+# About
+These files serve to demonstrate a simple use of [memoization](https://en.wikipedia.org/wiki/Memoization). Memoization is a programming technique in which the inputs and corresponding return value of a function call are cached (i.e. stored to be looked up later). This enables a function to avoid repeating calculations that it may have already performed in a previous call. This can be an especially useful technique for recursive functions.
+
+This particular example is written in [Lua](https://www.lua.org/) and uses [function closures](https://www.lua.org/pil/6.1.html) to allow tables containing cached calculations to persist between function calls.
